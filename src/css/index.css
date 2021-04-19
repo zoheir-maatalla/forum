@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  font-family: "Raleway", sans-serif;
+}
+
+.titre {
+  text-align: center;
+}
+
+.img {
+  width: 600px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+  width: 900px;
+  border: 4;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .droite {
+  display: flex;
+}
+footer .droite p {
+  margin-top: 0px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    margin-top: 20px;
+    text-align: left;
+  }
+  nav {
+    margin-bottom: 10px;
+  }
+}
